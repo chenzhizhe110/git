@@ -7,4 +7,7 @@ public class CtpChannel {
 		System.out.println("提交订单到ctp!");
 	}
 
+	public void cancel() {
+		System.out.println("提交撤单指令到ctp!");
+	}
 }
